@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import styles from './style'
-import {Navbar,Hero,Billing,Business,Clients,CTA,Feedback,Getstarted,Footer,Stats,Testominal} from './components/index';
+import {Navbar,Hero,Carddeal,Billing,Business,Clients,CTA,Feedback,Getstarted,Footer,Stats,Testominal} from './components/index';
 
 
 
@@ -29,7 +29,7 @@ function App() {
       <Stats/> 
       <Business/>
       <Billing/>
-      <CardDeal/>
+      <Carddeal/>
       <Testominal/>
       <Clients/>
       <CTA/>

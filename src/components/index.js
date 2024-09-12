@@ -10,7 +10,10 @@ import Getstarted from './Getstarted'
 import Clients from './Clients'
 import Testominal from './Testominal'
 import Stats from './Stats'
+import Navbar from './Navbar'
 export {
+    
+    Navbar,
     Billing,
     Business,
     Button,
