@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Button = () => {
   return (
-    <div>Button</div>
-  )
-}
+    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Button
+    </button>
+  );
+};
 
-export default Button
+export default Button;

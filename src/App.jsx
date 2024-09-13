@@ -1,43 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import styles from './style'
-import {Navbar,Hero,Carddeal,Billing,Business,Clients,CTA,Feedback,Getstarted,Footer,Stats,Testominal} from './components/index';
+import styles from "./Style.js";
+import { Billing, Business, Carddeal, Clients, CTA, Footer, Navbar, Stats, Testominal, Hero, Button } from "./components/index.js";
 
-
-
-
-function App() {
-
-  return (
-  <div className='bg-green-300 w-full overflow-hidden'>
+const App = () => (
+  <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Navbar/>
-
+        <Navbar />
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-      <Hero/>
+        <Hero />
       </div>
     </div>
-
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+    
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-      <Stats/> 
-      <Business/>
-      <Billing/>
-      <Carddeal/>
-      <Testominal/>
-      <Clients/>
-      <CTA/>
-      <Footer/>
+        <Stats />
+        <Business />
+        <Billing />
+        <Carddeal />
+        <Testominal/>
+        <Clients />
+        <CTA />
+        <Footer />
+        <Button/>
       </div>
     </div>
   </div>
-  )
-}
+);
 
-export default App
+export default App;
