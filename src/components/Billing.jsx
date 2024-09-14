@@ -16,8 +16,10 @@ const Billing = () => (
       billing & invoicing</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, ducimus quod at cupiditate ex sit ut maxime, cumque rem, voluptate excepturi repellendus. Itaque quam recusandae ipsam accusamus voluptates necessitatibus voluptate!
-
       </p>
+      <div className='flex flex-row flex-wrap'>
+
+      </div>
       </div>  
    
 
