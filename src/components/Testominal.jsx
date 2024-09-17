@@ -8,7 +8,7 @@ import FeedbackCard from './FeedbackCard'
 const Testominal = () => {
   return (
     <section id='clients' className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
-      <div/>
+      <div className='absolute z-[0] size-[60%] -right-[50%] rounded-full blue__gradient '/>
       <div className='w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative
       z-[1]'>
         <h1 className={styles.heading2}>What people are <br className='sm:block hidden '/>
