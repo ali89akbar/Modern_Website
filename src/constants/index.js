@@ -1,5 +1,5 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
-
+import github from '../assets/github.svg'
 export const navLinks = [
   {
     id: "home",
@@ -158,7 +158,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/akbar29670/",
   },
   {
     id: "social-media-2",
@@ -167,13 +167,13 @@ export const socialMedia = [
   },
   {
     id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
+    icon: github,
+    link: "https://github.com/ali89akbar",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://pk.linkedin.com/in/syed-ali-akbar-760051204",
   },
 ];
 

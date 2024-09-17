@@ -30,8 +30,14 @@ const Footer = () => (
     <p className='font-poppins font-normal text-center text-[18px] leading-[27px] text-white'>copyright © 2024 all rights reserved by Ali</p>
       <div className='flex flex-row md:mt-0 mt-6'>
         {socialMedia.map((social,index)=>(
-          <img key={social.id} src={social.icon} alt={social.id} 
-          className={`size-[21px] flex flex-row object-contain  cursor-pointer ${index !== socialMedia.length -1 ? 'mr-6' : 'mr-0'}`} />
+          <img 
+          key={social.id} 
+          src={social.icon} 
+          alt={social.id} 
+          className={`size-[21px] flex flex-row object-contain cursor-pointer ${index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'}`}
+          onClick={() => window.open(social.link, '_blank')} // opens link in a new tab
+        />
+        
         ))}
       </div>
   </div>
