@@ -20,7 +20,6 @@ const Billing = () => (
       <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
         <img src={apple} alt=""  className='w-[128px] h-[42px] object-contain mr-5 cursor-pointer'/>
         <img src={google} alt="" className='w-[128px] h-[42px] object-contain mr-5 cursor-pointer' />
-
       </div>
       </div>  
    
