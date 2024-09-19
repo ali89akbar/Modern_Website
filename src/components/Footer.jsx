@@ -10,7 +10,7 @@ const Footer = () => (
       <img src={logo} alt=""  className='w-[266px] h-[72px] object-contain'/>
     <p className={`${styles.paragraph} mt-4 max-w-[310px] `}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, voluptatum.</p>
     </div>
-    <div className={`flex-[1.6] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10`}>
+    <div className={`flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10`}>
       {footerLinks.map((footerLinks)=>(
         <div key={footerLinks.key} className='flex flex-col ss:my-0 my-4 min-w-[150px]' >
           <h4 className={`font-poppins font-medium text-[18px] leading-[27px] text-white`}>{footerLinks.title}</h4>
